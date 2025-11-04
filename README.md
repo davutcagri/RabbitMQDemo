@@ -54,6 +54,6 @@ While the Producer is running, you can send a message using an HTTP POST request
 ```bash
 curl -X POST \
   -H "Content-Type: text/plain" \
-  -d "Merhaba RabbitMQ" \
+  -d "Hello World!" \
   http://localhost:8080/sendMessage
 ```
